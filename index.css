@@ -1,0 +1,17 @@
+body {
+    margin: 0px;
+}
+
+#ligayabanner {
+    width:600px;
+    height:300px;
+   
+}
+
+.banner-container {
+    background-color: #8C9F85;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
