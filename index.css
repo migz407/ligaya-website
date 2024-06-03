@@ -5,9 +5,7 @@ body {
 #ligayabanner {
     width:600px;
     height:250px;
-    object-fit: cover;
-    
-   
+    object-fit: cover; 
 }
 
 .banner-container {
@@ -26,10 +24,32 @@ body {
     border-top: solid #56420A;
     border-bottom: solid #56420A;
     border-width: 1px;
-    
+    position: fixed;
+    width: 100%;
+    background-color: #E8DBC1;
+  
 }
 
-.navbar {
+#home {
+    object-fit: cover;
+    height: 75px;
+    width: 100px;
+
+}
+
+#about,
+#navbar-necklace,
+#navbar-bracelets,
+#navbar-earrings,
+#rings,
+#keycharms {
     text-decoration: none;
     color: black;
+    font-size: 12px;
+}
+
+#headerphoto {
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
 }
