@@ -3,9 +3,9 @@ body {
 }
 
 #ligayabanner {
-    width:600px;
-    height:250px;
-    object-fit: cover; 
+    width:475px;
+    height:187.5px;
+    object-fit: cover;
 }
 
 .banner-container {
@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 250px;
+    height: 187.5px;
 }
 
 .navbar-container {
@@ -23,18 +23,17 @@ body {
     text-align: center;
     border-top: solid #56420A;
     border-bottom: solid #56420A;
-    border-width: 1px;
-    position: fixed;
+    border-width: 1px;   
     width: 100%;
     background-color: #E8DBC1;
-  
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 #home {
     object-fit: cover;
-    height: 75px;
-    width: 100px;
-
+    height: 45px;
+    width: 60px;
 }
 
 #about,
@@ -45,11 +44,107 @@ body {
 #keycharms {
     text-decoration: none;
     color: black;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 #headerphoto {
-    height: 700px;
+    height: 600px;
     width: 100%;
+    object-fit: cover;
+    border: solid 1px #56420A;
+}
+
+.catalog-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#catalog {
+    text-align: center;
+    position: absolute;
+    background-color: #8C9F85;
+    font-size: 16px;
+    border-width: 0px;
+    padding:20px;
+    width: 200px;
+    
+}
+
+#catalogtext {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 8px;
+    text-align: center;
+    margin-right: -8px;
+}
+
+.photo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#ourstorypic,
+#necklacepic,
+#earringspic,
+#braceletspic {
+    height: 400px;
+    width: 350px;
+    object-fit: cover;
+    border: solid 1px #56420A;
+}
+
+.ourstory-container,
+.necklaces-container,
+.earrings-container,
+.bracelets-container {
+    display: flex;
+    align-items:last baseline;
+}
+
+#ourstory,
+#necklaces,
+#earrings,
+#bracelets {
+    position: absolute;
+    padding-left: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 15px;
+}
+
+#howto-title {
+    font-size: 48px;
+    color: #56420A;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#howtopic{
+    height: 700px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     object-fit: fill;
+    border: solid 1px #56420A;
+    margin-bottom: 30px;
+}
+
+#events-title {
+    font-size: 48px;
+    font-weight: bold;
+    color:#56420A;
+}
+
+#events-undertitle {
+    padding-top: 10px;
+    font-size: 16px;
+    color:#546126;
+    font-weight: bold;
 }
